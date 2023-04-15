@@ -16,12 +16,12 @@ while num_guesses > 0:
 
     # Check if the guess is correct
     if guess == secret_number:
-        print("Congratulations, you guessed the number!")
+        print("Congratulations, you guessed the number! 👑")
         break
     elif guess < secret_number:
-        print("Too low! You have", num_guesses, "guesses left.")
+        print("Too low!📉 You have", num_guesses, "guesses left.")
     else:
-        print("Too high! You have", num_guesses, "guesses left.")
+        print("Too high!📈 You have", num_guesses, "guesses left.")
 
 # If the player runs out of guesses, reveal the number
 if num_guesses == 0:
