@@ -9,4 +9,4 @@ while True:
     led.toggle()
 #     print("13 times {} is {}".format(n, 13*n))
 #     n = n + 1
-    sleep(.25)
+    sleep(.5)
